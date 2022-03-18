@@ -1,0 +1,50 @@
+{
+  "id": "a0ca18c9-cc9a-4483-a666-a47d0f5f7b24",
+  "name": "testInputContexts",
+  "auto": true,
+  "contexts": [
+    "userdata"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "userdata",
+          "lifespan": 5
+        },
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hi #userdata.name! What do you want?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "test-inputcontexts"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

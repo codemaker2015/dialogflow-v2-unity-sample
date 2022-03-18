@@ -1,0 +1,151 @@
+[
+  {
+    "id": "1780062e-b781-4c1f-820a-803c30ae9bd8",
+    "data": [
+      {
+        "text": "3",
+        "meta": "@sys.number",
+        "alias": "quantity",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "potion",
+        "meta": "@items",
+        "alias": "desired",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4b5b9664-40c9-445c-9b0c-98f77b1d2d85",
+    "data": [
+      {
+        "text": "Give me ",
+        "userDefined": false
+      },
+      {
+        "text": "12",
+        "meta": "@sys.number",
+        "alias": "quantity",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "High Potion",
+        "meta": "@items",
+        "alias": "desired",
+        "userDefined": false
+      },
+      {
+        "text": "!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ac463a70-dd81-490a-a955-220ef9a75f89",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@sys.number",
+        "alias": "quantity",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "High Potion",
+        "meta": "@items",
+        "alias": "desired",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f17b5ea5-f165-405c-b225-f4afb8a47823",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "a",
+        "meta": "@sys.number",
+        "alias": "quantity",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "High Potion",
+        "meta": "@items",
+        "alias": "desired",
+        "userDefined": false
+      },
+      {
+        "text": ", please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d80bc68e-a9e9-43be-8c31-babeb6fe2d97",
+    "data": [
+      {
+        "text": "1",
+        "meta": "@sys.number",
+        "alias": "quantity",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "High Potion",
+        "meta": "@items",
+        "alias": "desired",
+        "userDefined": false
+      },
+      {
+        "text": ", please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

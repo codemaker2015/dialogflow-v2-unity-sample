@@ -1,0 +1,39 @@
+{
+  "id": "49714768-a34b-49ac-b2e0-c3fe09004bf0",
+  "parentId": "7f871b32-df90-4d17-a895-18a78accc410",
+  "rootParentId": "a37cf4ed-9d9e-496f-89b5-c78406e7b32e",
+  "name": "express.desire.intent - no",
+  "auto": true,
+  "contexts": [
+    "expressdesireintent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.expressdesireintent-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, let me know if you need anything else."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

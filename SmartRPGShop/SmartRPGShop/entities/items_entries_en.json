@@ -1,0 +1,33 @@
+[
+  {
+    "value": "Antidote",
+    "synonyms": [
+      "Antidote",
+      "Antidotes",
+      "antidote",
+      "antidotes",
+      "poison cure"
+    ]
+  },
+  {
+    "value": "High Potion",
+    "synonyms": [
+      "High Potion",
+      "High Potions",
+      "High potions",
+      "Medium Potion",
+      "Powerful Potion",
+      "high Potions",
+      "high potions"
+    ]
+  },
+  {
+    "value": "Potion",
+    "synonyms": [
+      "Potion",
+      "Potions",
+      "potion",
+      "potions"
+    ]
+  }
+]

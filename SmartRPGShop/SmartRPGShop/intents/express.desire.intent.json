@@ -1,0 +1,70 @@
+{
+  "id": "7f871b32-df90-4d17-a895-18a78accc410",
+  "parentId": "a37cf4ed-9d9e-496f-89b5-c78406e7b32e",
+  "rootParentId": "a37cf4ed-9d9e-496f-89b5-c78406e7b32e",
+  "name": "express.desire.intent",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "expressdesireintent-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4806bef0-6173-4182-9640-6122f43fe9aa",
+          "name": "desired",
+          "required": false,
+          "dataType": "@items",
+          "value": "$desired",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "750153e9-a035-4dec-8b64-aa77aa80e98a",
+          "name": "quantity",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$quantity",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
